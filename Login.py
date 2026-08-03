@@ -70,7 +70,7 @@ def login_page(): #Yet again the function system is so silly
     while ((user_input != "1") and (user_input != "2")):
         print("Are you a first-time or existing user? Type: 1 - first-time || 2 - existing ")
         user_input = input() 
-    if (user_input == "1"): #Pretty self explainatory, getting everything to make a new account
+    if (user_input == "1"): #Pretty self explanatory, getting everything to make a new account
         print("Sign Up:")
         username = input("What would you like your username to be? ")
         password = input("What would you like your password to be? ")
